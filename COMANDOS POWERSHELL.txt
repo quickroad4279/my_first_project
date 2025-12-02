@@ -1,0 +1,39 @@
+- Surname = "Andrade"
+
+- DisplayName = "Lucas Renato de Andrade"
+
+- Description = ""
+
+- Office = ""
+
+- SamAccountName = "5821047"
+
+- PATH = "OU=TECH,OU=Staff,OU=INFRA,OU=SUPPORT,OU=OPS,OU=ACME,OU=Corporate,DC=example,DC=local"
+
+- Company = ""
+
+- Department = ""
+
+- Title = ""
+
+- City = ""
+
+- State = ""
+
+- AccountPassword = "P@ssword2024" | ConvertTo-SecureString -AsPlainText -Force
+
+- }
+
+- New-ADUser @Attributes
+
+-
+
+----
+
+- CN=Lucas Renato de Andrade,OU=Staff,OU=INFRA,OU=SUPPORT,OU=OPS,OU=ACME,OU=Corporate,DC=example,DC=cabragrandecomsino
+
+- cabragrandecomsino.com.br/Corporate/ACME/OPS/SUPPORT/INFRA/Staff/Lucas Renato de Andrade
+
+--------------------------------------------------
+
+- # INSERIR O E-MAIL
